@@ -1,0 +1,2999 @@
+{
+ "targets": [
+  {
+   "name": "Stage",
+   "costumes": [
+    {
+     "name": "backdrop1",
+     "file": "costumes/0_001_backdrop1.png",
+     "scale": 2,
+     "width": 480,
+     "height": 360,
+     "centerX": 240,
+     "centerY": 180
+    },
+    {
+     "name": "backdrop2",
+     "file": "costumes/0_002_backdrop2.png",
+     "scale": 2,
+     "width": 480,
+     "height": 360,
+     "centerX": 240,
+     "centerY": 180
+    },
+    {
+     "name": "backdrop3",
+     "file": "costumes/0_003_backdrop3.png",
+     "scale": 2,
+     "width": 480,
+     "height": 360,
+     "centerX": 240,
+     "centerY": 180
+    }
+   ],
+   "sounds": []
+  },
+  {
+   "name": "`",
+   "costumes": [
+    {
+     "name": "_icon.empty",
+     "file": "costumes/1_001__icon.empty.png",
+     "scale": 2,
+     "width": 0.5,
+     "height": 0.5,
+     "centerX": 0,
+     "centerY": 0
+    },
+    {
+     "name": "_box.1",
+     "file": "costumes/1_002__box.1.png",
+     "scale": 2,
+     "width": 113,
+     "height": 108,
+     "centerX": 56,
+     "centerY": 54
+    },
+    {
+     "name": "_box.2",
+     "file": "costumes/1_003__box.2.png",
+     "scale": 2,
+     "width": 166,
+     "height": 166,
+     "centerX": 83,
+     "centerY": 83
+    },
+    {
+     "name": "_button.proceed",
+     "file": "costumes/1_004__button.proceed.png",
+     "scale": 2,
+     "width": 46,
+     "height": 46,
+     "centerX": 23,
+     "centerY": 23
+    },
+    {
+     "name": "_button.delete",
+     "file": "costumes/1_005__button.delete.png",
+     "scale": 2,
+     "width": 45,
+     "height": 45,
+     "centerX": 22.5,
+     "centerY": 22.5
+    },
+    {
+     "name": "_button.accept",
+     "file": "costumes/1_006__button.accept.png",
+     "scale": 2,
+     "width": 46,
+     "height": 45,
+     "centerX": 23,
+     "centerY": 22.5
+    },
+    {
+     "name": "_button.user",
+     "file": "costumes/1_007__button.user.png",
+     "scale": 2,
+     "width": 46,
+     "height": 45,
+     "centerX": 23,
+     "centerY": 22.5
+    },
+    {
+     "name": "_button.settings",
+     "file": "costumes/1_008__button.settings.png",
+     "scale": 2,
+     "width": 45,
+     "height": 45,
+     "centerX": 22.5,
+     "centerY": 22.5
+    },
+    {
+     "name": "_button.photos",
+     "file": "costumes/1_009__button.photos.png",
+     "scale": 2,
+     "width": 46,
+     "height": 45,
+     "centerX": 23,
+     "centerY": 22.5
+    },
+    {
+     "name": "_button.start",
+     "file": "costumes/1_010__button.start.png",
+     "scale": 2,
+     "width": 46,
+     "height": 45,
+     "centerX": 23,
+     "centerY": 22.5
+    },
+    {
+     "name": "_button.info",
+     "file": "costumes/1_011__button.info.png",
+     "scale": 2,
+     "width": 43.5,
+     "height": 43.5,
+     "centerX": 22,
+     "centerY": 22
+    },
+    {
+     "name": "_button.refresh",
+     "file": "costumes/1_012__button.refresh.png",
+     "scale": 2,
+     "width": 62,
+     "height": 62,
+     "centerX": 31,
+     "centerY": 31
+    },
+    {
+     "name": "_button",
+     "file": "costumes/1_013__button.png",
+     "scale": 2,
+     "width": 89,
+     "height": 28,
+     "centerX": 44.5,
+     "centerY": 14
+    },
+    {
+     "name": "_icon.bone",
+     "file": "costumes/1_014__icon.bone.png",
+     "scale": 8,
+     "width": 36.46238,
+     "height": 38.6648,
+     "centerX": 18.23118787531584,
+     "centerY": 19.332400565771138
+    },
+    {
+     "name": "_icon.bonetree",
+     "file": "costumes/1_015__icon.bonetree.png",
+     "scale": 8,
+     "width": 32.54799,
+     "height": 28.44141,
+     "centerX": 14.702263608008025,
+     "centerY": 13.870431661446133
+    },
+    {
+     "name": "_icon.trash",
+     "file": "costumes/1_016__icon.trash.png",
+     "scale": 2,
+     "width": 29,
+     "height": 37,
+     "centerX": 14.5,
+     "centerY": 18.5
+    },
+    {
+     "name": "_icon.info",
+     "file": "costumes/1_017__icon.info.png",
+     "scale": 2,
+     "width": 39.5,
+     "height": 39.5,
+     "centerX": 20,
+     "centerY": 20
+    },
+    {
+     "name": "_icon.memo",
+     "file": "costumes/1_018__icon.memo.png",
+     "scale": 2,
+     "width": 39,
+     "height": 38,
+     "centerX": 19.5,
+     "centerY": 19
+    },
+    {
+     "name": "_icon.file",
+     "file": "costumes/1_019__icon.file.png",
+     "scale": 2,
+     "width": 38,
+     "height": 38,
+     "centerX": 19,
+     "centerY": 19
+    },
+    {
+     "name": "_icon.texture",
+     "file": "costumes/1_020__icon.texture.png",
+     "scale": 2,
+     "width": 47.5,
+     "height": 46.5,
+     "centerX": 24,
+     "centerY": 27
+    },
+    {
+     "name": "_icon.filemove",
+     "file": "costumes/1_021__icon.filemove.png",
+     "scale": 2,
+     "width": 44.5,
+     "height": 38,
+     "centerX": 22.5,
+     "centerY": 19
+    },
+    {
+     "name": "_icon.filecopy",
+     "file": "costumes/1_022__icon.filecopy.png",
+     "scale": 2,
+     "width": 44.5,
+     "height": 38,
+     "centerX": 22.5,
+     "centerY": 19
+    },
+    {
+     "name": "_icon.filenew",
+     "file": "costumes/1_023__icon.filenew.png",
+     "scale": 2,
+     "width": 49,
+     "height": 41.5,
+     "centerX": 22.5,
+     "centerY": 18
+    },
+    {
+     "name": "_icon.drive",
+     "file": "costumes/1_024__icon.drive.png",
+     "scale": 2,
+     "width": 36,
+     "height": 35,
+     "centerX": 18,
+     "centerY": 17.5
+    },
+    {
+     "name": "_icon.graph",
+     "file": "costumes/1_025__icon.graph.png",
+     "scale": 2,
+     "width": 37,
+     "height": 38,
+     "centerX": 18.5,
+     "centerY": 19
+    },
+    {
+     "name": "_icon.music",
+     "file": "costumes/1_026__icon.music.png",
+     "scale": 2,
+     "width": 38,
+     "height": 37,
+     "centerX": 19,
+     "centerY": 18.5
+    },
+    {
+     "name": "_icon.worker",
+     "file": "costumes/1_027__icon.worker.png",
+     "scale": 2,
+     "width": 35,
+     "height": 38,
+     "centerX": 17.5,
+     "centerY": 19
+    },
+    {
+     "name": "_icon.game",
+     "file": "costumes/1_028__icon.game.png",
+     "scale": 8,
+     "width": 55.31885,
+     "height": 41.1065,
+     "centerX": 27.659427394842595,
+     "centerY": 16.037121363909648
+    },
+    {
+     "name": "_icon.command",
+     "file": "costumes/1_029__icon.command.png",
+     "scale": 2,
+     "width": 32,
+     "height": 28,
+     "centerX": 16,
+     "centerY": 14
+    },
+    {
+     "name": "_icon.scene",
+     "file": "costumes/1_030__icon.scene.png",
+     "scale": 2,
+     "width": 42,
+     "height": 39,
+     "centerX": 21,
+     "centerY": 19.5
+    },
+    {
+     "name": "_icon.stats",
+     "file": "costumes/1_031__icon.stats.png",
+     "scale": 2,
+     "width": 37,
+     "height": 40,
+     "centerX": 18.5,
+     "centerY": 20
+    },
+    {
+     "name": "_icon.melody",
+     "file": "costumes/1_032__icon.melody.png",
+     "scale": 2,
+     "width": 39.5,
+     "height": 37.5,
+     "centerX": 20,
+     "centerY": 18.5
+    },
+    {
+     "name": "_icon.calculator",
+     "file": "costumes/1_033__icon.calculator.png",
+     "scale": 2,
+     "width": 36.5,
+     "height": 47,
+     "centerX": 18.5,
+     "centerY": 23.5
+    },
+    {
+     "name": "_icon.color",
+     "file": "costumes/1_034__icon.color.png",
+     "scale": 8,
+     "width": 45.47261,
+     "height": 45.08395,
+     "centerX": 22.986304156148236,
+     "centerY": 22.541976770198204
+    },
+    {
+     "name": "_icon.dictionary",
+     "file": "costumes/1_035__icon.dictionary.png",
+     "scale": 8,
+     "width": 47.6573,
+     "height": 52.21582,
+     "centerX": 24.080036606263292,
+     "centerY": 26.1089588312484
+    },
+    {
+     "name": "_icon.wave",
+     "file": "costumes/1_036__icon.wave.png",
+     "scale": 8,
+     "width": 46.99079,
+     "height": 41.80799,
+     "centerX": 23.495397117079563,
+     "centerY": 21.153993023284016
+    },
+    {
+     "name": "_icon.key",
+     "file": "costumes/1_037__icon.key.png",
+     "scale": 8,
+     "width": 39.33646,
+     "height": 53.52338,
+     "centerX": 19.668230000000023,
+     "centerY": 26.761689999999987
+    },
+    {
+     "name": "_icon.configure",
+     "file": "costumes/1_038__icon.configure.png",
+     "scale": 2,
+     "width": 42,
+     "height": 54.5,
+     "centerX": 21,
+     "centerY": 24.5
+    },
+    {
+     "name": "_icon.bsod",
+     "file": "costumes/1_039__icon.bsod.png",
+     "scale": 8,
+     "width": 51,
+     "height": 46.5,
+     "centerX": 25.5,
+     "centerY": 23.5
+    },
+    {
+     "name": "_icon.ui",
+     "file": "costumes/1_040__icon.ui.png",
+     "scale": 8,
+     "width": 40.0498,
+     "height": 36.40836,
+     "centerX": 20.024899523809523,
+     "centerY": 16.91846666666669
+    },
+    {
+     "name": "_icon.pointxy",
+     "file": "costumes/1_041__icon.pointxy.png",
+     "scale": 8,
+     "width": 46.71888,
+     "height": 39.76964,
+     "centerX": 23.089195427080853,
+     "centerY": 19.098823433293177
+    },
+    {
+     "name": "_icon.object",
+     "file": "costumes/1_042__icon.object.png",
+     "scale": 8,
+     "width": 41.70403,
+     "height": 40.75099,
+     "centerX": 20.852014444444478,
+     "centerY": 17.742051947349353
+    },
+    {
+     "name": "_icon.model",
+     "file": "costumes/1_043__icon.model.png",
+     "scale": 8,
+     "width": 41.70537,
+     "height": 41.70537,
+     "centerX": 20.844971328544517,
+     "centerY": 18.225113664549355
+    },
+    {
+     "name": "_icon.2dmodel",
+     "file": "costumes/1_044__icon.2dmodel.png",
+     "scale": 2,
+     "width": 37,
+     "height": 37.5,
+     "centerX": 18.5,
+     "centerY": 18.5
+    },
+    {
+     "name": "_icon.unknown",
+     "file": "costumes/1_045__icon.unknown.png",
+     "scale": 4,
+     "width": 35.21909,
+     "height": 75.12081,
+     "centerX": 16.826584843961598,
+     "centerY": 40.132720000000006
+    },
+    {
+     "name": "_icon.tile",
+     "file": "costumes/1_046__icon.tile.png",
+     "scale": 8,
+     "width": 42.38106,
+     "height": 41.70528,
+     "centerX": 21.183335,
+     "centerY": 18.22547
+    },
+    {
+     "name": "_icon.tilecopy",
+     "file": "costumes/1_047__icon.tilecopy.png",
+     "scale": 8,
+     "width": 41.0199,
+     "height": 38.1195,
+     "centerX": 20.509947814742304,
+     "centerY": 14.559749484407007
+    },
+    {
+     "name": "_icon.tilecopyy",
+     "file": "costumes/1_048__icon.tilecopyy.png",
+     "scale": 8,
+     "width": 38.68637,
+     "height": 36.01854,
+     "centerX": 14.485459315004022,
+     "centerY": 14.61262786612977
+    },
+    {
+     "name": "_icon.tilechangey",
+     "file": "costumes/1_049__icon.tilechangey.png",
+     "scale": 8,
+     "width": 37.26744,
+     "height": 37.26744,
+     "centerX": 15.472431285000027,
+     "centerY": 15.531537875600009
+    },
+    {
+     "name": "_icon.tilecopyheight",
+     "file": "costumes/1_050__icon.tilecopyheight.png",
+     "scale": 8,
+     "width": 40.23521,
+     "height": 47.09217,
+     "centerX": 14.5,
+     "centerY": 20.296307175581234
+    },
+    {
+     "name": "_icon.tilechangeheight",
+     "file": "costumes/1_051__icon.tilechangeheight.png",
+     "scale": 8,
+     "width": 35.5,
+     "height": 47.09217,
+     "centerX": 14.5,
+     "centerY": 20.296300000000002
+    },
+    {
+     "name": "_icon.tilecopytexture",
+     "file": "costumes/1_052__icon.tilecopytexture.png",
+     "scale": 8,
+     "width": 46.73521,
+     "height": 41.5,
+     "centerX": 21,
+     "centerY": 18
+    },
+    {
+     "name": "_icon.tilechangetexture",
+     "file": "costumes/1_053__icon.tilechangetexture.png",
+     "scale": 8,
+     "width": 42,
+     "height": 41.5,
+     "centerX": 21,
+     "centerY": 18
+    },
+    {
+     "name": "_icon.wall",
+     "file": "costumes/1_054__icon.wall.png",
+     "scale": 2,
+     "width": 41.5,
+     "height": 40.5,
+     "centerX": 20,
+     "centerY": 18.5
+    },
+    {
+     "name": "_icon.select",
+     "file": "costumes/1_055__icon.select.png",
+     "scale": 8,
+     "width": 48.22061,
+     "height": 48.22061,
+     "centerX": 29.258183895721373,
+     "centerY": 28.104481788740486
+    },
+    {
+     "name": "_icon.move",
+     "file": "costumes/1_056__icon.move.png",
+     "scale": 8,
+     "width": 39.9975,
+     "height": 39.78304,
+     "centerX": 22.796451958454185,
+     "centerY": 19.891517742198488
+    },
+    {
+     "name": "_icon.stretch",
+     "file": "costumes/1_057__icon.stretch.png",
+     "scale": 8,
+     "width": 33.57042,
+     "height": 26.88366,
+     "centerX": 16.787113372620382,
+     "centerY": 13.443863509592603
+    },
+    {
+     "name": "_icon.vertical",
+     "file": "costumes/1_058__icon.vertical.png",
+     "scale": 8,
+     "width": 25.06438,
+     "height": 27.03193,
+     "centerX": 12.534101092839705,
+     "centerY": 13.517999114979546
+    },
+    {
+     "name": "_icon.rotate",
+     "file": "costumes/1_059__icon.rotate.png",
+     "scale": 4,
+     "width": 67.8166,
+     "height": 42.51971,
+     "centerX": 33.90829780707952,
+     "centerY": 21.25985374252474
+    },
+    {
+     "name": "_icon.delete",
+     "file": "costumes/1_060__icon.delete.png",
+     "scale": 8,
+     "width": 44.17875,
+     "height": 46.71923,
+     "centerX": 22.08937427054053,
+     "centerY": 23.359617420782854
+    },
+    {
+     "name": "_icon.lock",
+     "file": "costumes/1_061__icon.lock.png",
+     "scale": 2,
+     "width": 29,
+     "height": 43.5,
+     "centerX": 14.5,
+     "centerY": 19
+    },
+    {
+     "name": "_icon.warn",
+     "file": "costumes/1_062__icon.warn.png",
+     "scale": 2,
+     "width": 47.5,
+     "height": 46,
+     "centerX": 24,
+     "centerY": 20.5
+    },
+    {
+     "name": "_icon.smile",
+     "file": "costumes/1_063__icon.smile.png",
+     "scale": 2,
+     "width": 39,
+     "height": 39,
+     "centerX": 19.5,
+     "centerY": 19.5
+    },
+    {
+     "name": "_icon.option",
+     "file": "costumes/1_064__icon.option.png",
+     "scale": 2,
+     "width": 34.5,
+     "height": 34.5,
+     "centerX": 17,
+     "centerY": 17
+    },
+    {
+     "name": "_icon.point",
+     "file": "costumes/1_065__icon.point.png",
+     "scale": 2,
+     "width": 34.5,
+     "height": 34.5,
+     "centerX": 17,
+     "centerY": 17
+    },
+    {
+     "name": "_icon.quadpoint",
+     "file": "costumes/1_066__icon.quadpoint.png",
+     "scale": 2,
+     "width": 34.5,
+     "height": 34.5,
+     "centerX": 17,
+     "centerY": 17
+    },
+    {
+     "name": "_icon.ghostdiv",
+     "file": "costumes/1_067__icon.ghostdiv.png",
+     "scale": 2,
+     "width": 35,
+     "height": 35,
+     "centerX": 17.5,
+     "centerY": 17.5
+    },
+    {
+     "name": "_icon.group",
+     "file": "costumes/1_068__icon.group.png",
+     "scale": 8,
+     "width": 41.16937,
+     "height": 40.95824,
+     "centerX": 20.584683301984597,
+     "centerY": 20.47912082351297
+    },
+    {
+     "name": "_icon.stretchx",
+     "file": "costumes/1_069__icon.stretchx.png",
+     "scale": 2,
+     "width": 29.5,
+     "height": 20,
+     "centerX": 15,
+     "centerY": 10
+    },
+    {
+     "name": "_icon.stretchy",
+     "file": "costumes/1_070__icon.stretchy.png",
+     "scale": 2,
+     "width": 19,
+     "height": 25,
+     "centerX": 9.5,
+     "centerY": 12.5
+    },
+    {
+     "name": "_icon.axis",
+     "file": "costumes/1_071__icon.axis.png",
+     "scale": 2,
+     "width": 41.5,
+     "height": 35,
+     "centerX": 21,
+     "centerY": 17.5
+    },
+    {
+     "name": "_icon.clock",
+     "file": "costumes/1_072__icon.clock.png",
+     "scale": 8,
+     "width": 41.83732,
+     "height": 41.83732,
+     "centerX": 20.91866028708128,
+     "centerY": 20.91866028708131
+    },
+    {
+     "name": "_icon.keyframe",
+     "file": "costumes/1_073__icon.keyframe.png",
+     "scale": 8,
+     "width": 49.89744,
+     "height": 46.05917,
+     "centerX": 24.948717948718013,
+     "centerY": 23.029585798816584
+    },
+    {
+     "name": "_icon.star",
+     "file": "costumes/1_074__icon.star.png",
+     "scale": 8,
+     "width": 50,
+     "height": 49,
+     "centerX": 25,
+     "centerY": 24.5
+    },
+    {
+     "name": "_font.default.a",
+     "file": "costumes/1_075__font.default.a.png",
+     "scale": 8,
+     "width": 11.18229,
+     "height": 27.16667,
+     "centerX": 5.337890625,
+     "centerY": 16.14791793823241
+    },
+    {
+     "name": "_font.default.b",
+     "file": "costumes/1_076__font.default.b.png",
+     "scale": 8,
+     "width": 12.76215,
+     "height": 27.16667,
+     "centerX": 6.12890625,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.c",
+     "file": "costumes/1_077__font.default.c.png",
+     "scale": 8,
+     "width": 10.24479,
+     "height": 27.16667,
+     "centerX": 4.869140625,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.d",
+     "file": "costumes/1_078__font.default.d.png",
+     "scale": 8,
+     "width": 12.77951,
+     "height": 27.16667,
+     "centerX": 6.138671875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.e",
+     "file": "costumes/1_079__font.default.e.png",
+     "scale": 8,
+     "width": 11.46007,
+     "height": 27.16667,
+     "centerX": 5.4794921875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.f",
+     "file": "costumes/1_080__font.default.f.png",
+     "scale": 8,
+     "width": 8.22222,
+     "height": 27.16667,
+     "centerX": 3.3798828125,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.g",
+     "file": "costumes/1_081__font.default.g.png",
+     "scale": 8,
+     "width": 12.77951,
+     "height": 27.16667,
+     "centerX": 6.138671875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.h",
+     "file": "costumes/1_082__font.default.h.png",
+     "scale": 8,
+     "width": 12.31944,
+     "height": 27.16667,
+     "centerX": 5.9091796875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.i",
+     "file": "costumes/1_083__font.default.i.png",
+     "scale": 8,
+     "width": 5.84375,
+     "height": 27.16667,
+     "centerX": 2.671875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.j",
+     "file": "costumes/1_084__font.default.j.png",
+     "scale": 8,
+     "width": 8.06597,
+     "height": 27.16667,
+     "centerX": 4.894097328186035,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.k",
+     "file": "costumes/1_085__font.default.k.png",
+     "scale": 8,
+     "width": 11.55556,
+     "height": 27.16667,
+     "centerX": 5.220703125,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.l",
+     "file": "costumes/1_086__font.default.l.png",
+     "scale": 8,
+     "width": 5.84375,
+     "height": 27.16667,
+     "centerX": 2.671875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.m",
+     "file": "costumes/1_087__font.default.m.png",
+     "scale": 8,
+     "width": 16.74064,
+     "height": 27,
+     "centerX": 8.842899998598341,
+     "centerY": 15.75
+    },
+    {
+     "name": "_font.default.n",
+     "file": "costumes/1_088__font.default.n.png",
+     "scale": 8,
+     "width": 12.31944,
+     "height": 27.16667,
+     "centerX": 5.9091796875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.o",
+     "file": "costumes/1_089__font.default.o.png",
+     "scale": 8,
+     "width": 12.71875,
+     "height": 27.16667,
+     "centerX": 6.109375,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.p",
+     "file": "costumes/1_090__font.default.p.png",
+     "scale": 8,
+     "width": 12.76215,
+     "height": 27.16667,
+     "centerX": 6.12890625,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.q",
+     "file": "costumes/1_091__font.default.q.png",
+     "scale": 8,
+     "width": 12.77951,
+     "height": 27.16667,
+     "centerX": 6.138671875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.r",
+     "file": "costumes/1_092__font.default.r.png",
+     "scale": 8,
+     "width": 8.22222,
+     "height": 27.16667,
+     "centerX": 3.7265625,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.s",
+     "file": "costumes/1_093__font.default.s.png",
+     "scale": 8,
+     "width": 9.48958,
+     "height": 27.16667,
+     "centerX": 4.4931640625,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.t",
+     "file": "costumes/1_094__font.default.t.png",
+     "scale": 8,
+     "width": 7.77951,
+     "height": 27.16667,
+     "centerX": 3.638671875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.u",
+     "file": "costumes/1_095__font.default.u.png",
+     "scale": 8,
+     "width": 12.31944,
+     "height": 27.16667,
+     "centerX": 5.9091796875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.v",
+     "file": "costumes/1_096__font.default.v.png",
+     "scale": 8,
+     "width": 11.55556,
+     "height": 27.16667,
+     "centerX": 5.595594644546509,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.w",
+     "file": "costumes/1_097__font.default.w.png",
+     "scale": 8,
+     "width": 15.45313,
+     "height": 27.16667,
+     "centerX": 7.4765625,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.x",
+     "file": "costumes/1_098__font.default.x.png",
+     "scale": 8,
+     "width": 10.44444,
+     "height": 27.16667,
+     "centerX": 4.83984375,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.y",
+     "file": "costumes/1_099__font.default.y.png",
+     "scale": 8,
+     "width": 11.55556,
+     "height": 27.16667,
+     "centerX": 5.644422769546509,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.z",
+     "file": "costumes/1_100__font.default.z.png",
+     "scale": 8,
+     "width": 10.04514,
+     "height": 27.16667,
+     "centerX": 4.771484375,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.0",
+     "file": "costumes/1_101__font.default.0.png",
+     "scale": 8,
+     "width": 11.78125,
+     "height": 27.16667,
+     "centerX": 5.640625,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.1",
+     "file": "costumes/1_102__font.default.1.png",
+     "scale": 8,
+     "width": 11.78125,
+     "height": 27.16667,
+     "centerX": 5.640625,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.2",
+     "file": "costumes/1_103__font.default.2.png",
+     "scale": 8,
+     "width": 11.78125,
+     "height": 27.16667,
+     "centerX": 5.640625,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.3",
+     "file": "costumes/1_104__font.default.3.png",
+     "scale": 8,
+     "width": 11.78125,
+     "height": 27.16667,
+     "centerX": 5.640625,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.4",
+     "file": "costumes/1_105__font.default.4.png",
+     "scale": 8,
+     "width": 12.33681,
+     "height": 27.16667,
+     "centerX": 6.196170582046534,
+     "centerY": 15.916665876464833
+    },
+    {
+     "name": "_font.default.5",
+     "file": "costumes/1_106__font.default.5.png",
+     "scale": 8,
+     "width": 11.78125,
+     "height": 27.16667,
+     "centerX": 5.640620582046552,
+     "centerY": 15.916663814697245
+    },
+    {
+     "name": "_font.default.6",
+     "file": "costumes/1_107__font.default.6.png",
+     "scale": 8,
+     "width": 11.78125,
+     "height": 27.16667,
+     "centerX": 5.640620582046552,
+     "centerY": 15.916671752929659
+    },
+    {
+     "name": "_font.default.7",
+     "file": "costumes/1_108__font.default.7.png",
+     "scale": 8,
+     "width": 11.78125,
+     "height": 27.16667,
+     "centerX": 5.640620582046552,
+     "centerY": 15.91666969116207
+    },
+    {
+     "name": "_font.default.8",
+     "file": "costumes/1_109__font.default.8.png",
+     "scale": 8,
+     "width": 11.78125,
+     "height": 27.16667,
+     "centerX": 5.640620582046552,
+     "centerY": 15.916667629394482
+    },
+    {
+     "name": "_font.default.9",
+     "file": "costumes/1_110__font.default.9.png",
+     "scale": 8,
+     "width": 11.78125,
+     "height": 27.16667,
+     "centerX": 5.640620582046552,
+     "centerY": 15.916665567626893
+    },
+    {
+     "name": "_font.default.-",
+     "file": "costumes/1_111__font.default.-.png",
+     "scale": 8,
+     "width": 9.00347,
+     "height": 27.16667,
+     "centerX": 4.2490234375,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default..",
+     "file": "costumes/1_112__font.default...png",
+     "scale": 8,
+     "width": 5.34028,
+     "height": 27.16667,
+     "centerX": 2.41796875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.=",
+     "file": "costumes/1_113__font.default._x3d_.png",
+     "scale": 8,
+     "width": 14.68924,
+     "height": 27.16667,
+     "centerX": 7.0908203125,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.,",
+     "file": "costumes/1_114__font.default._x2c_.png",
+     "scale": 8,
+     "width": 5.34028,
+     "height": 27.16667,
+     "centerX": 2.41796875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.?",
+     "file": "costumes/1_115__font.default._x3f_.png",
+     "scale": 8,
+     "width": 9.96701,
+     "height": 27.16667,
+     "centerX": 4.732421875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.!",
+     "file": "costumes/1_116__font.default._x21_.png",
+     "scale": 8,
+     "width": 6.68576,
+     "height": 27.16667,
+     "centerX": 3.091796875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.@",
+     "file": "costumes/1_117__font.default._x40_.png",
+     "scale": 8,
+     "width": 20.1059,
+     "height": 27.16667,
+     "centerX": 9.80078125,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.#",
+     "file": "costumes/1_118__font.default._x23_.png",
+     "scale": 8,
+     "width": 12.82292,
+     "height": 27.16667,
+     "centerX": 6.158203125,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.$",
+     "file": "costumes/1_119__font.default._x24_.png",
+     "scale": 8,
+     "width": 11.78125,
+     "height": 27.16667,
+     "centerX": 5.640625,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.%",
+     "file": "costumes/1_120__font.default._x25_.png",
+     "scale": 8,
+     "width": 17.37153,
+     "height": 27.16667,
+     "centerX": 8.43359375,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.^",
+     "file": "costumes/1_121__font.default._x5e_.png",
+     "scale": 8,
+     "width": 14.68924,
+     "height": 27.16667,
+     "centerX": 7.0908203125,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.&",
+     "file": "costumes/1_122__font.default._x26_.png",
+     "scale": 8,
+     "width": 17.11111,
+     "height": 27.16667,
+     "centerX": 8.2529296875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.*",
+     "file": "costumes/1_123__font.default._x2a_.png",
+     "scale": 8,
+     "width": 9.34201,
+     "height": 27.16667,
+     "centerX": 4.419921875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.(",
+     "file": "costumes/1_124__font.default._x28_.png",
+     "scale": 8,
+     "width": 7.11111,
+     "height": 27.16667,
+     "centerX": 3.267578125,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.)",
+     "file": "costumes/1_125__font.default._x29_.png",
+     "scale": 8,
+     "width": 7.04167,
+     "height": 27.16667,
+     "centerX": 3.267578125,
+     "centerY": 15.916665876464833
+    },
+    {
+     "name": "_font.default.+",
+     "file": "costumes/1_126__font.default._x2b_.png",
+     "scale": 8,
+     "width": 14.68924,
+     "height": 27.16667,
+     "centerX": 7.0908203125,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default._",
+     "file": "costumes/1_127__font.default._.png",
+     "scale": 8,
+     "width": 10.44444,
+     "height": 27.16667,
+     "centerX": 4.955946207046509,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default./",
+     "file": "costumes/1_128__font.default._x2f_.png",
+     "scale": 8,
+     "width": 9.88889,
+     "height": 27.16667,
+     "centerX": 4.702039957046509,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.\\",
+     "file": "costumes/1_129__font.default._x5c_.png",
+     "scale": 8,
+     "width": 9.88889,
+     "height": 27.16667,
+     "centerX": 4.594618082046509,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.|",
+     "file": "costumes/1_130__font.default._x7c_.png",
+     "scale": 8,
+     "width": 5.79167,
+     "height": 27.16667,
+     "centerX": 2.642578125,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.{",
+     "file": "costumes/1_131__font.default._x7b_.png",
+     "scale": 8,
+     "width": 7.11111,
+     "height": 27.16667,
+     "centerX": 3.267578125,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.}",
+     "file": "costumes/1_132__font.default._x7d_.png",
+     "scale": 8,
+     "width": 7.04167,
+     "height": 27.16667,
+     "centerX": 3.267578125,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.\"",
+     "file": "costumes/1_133__font.default._x22_.png",
+     "scale": 8,
+     "width": 8.84722,
+     "height": 27.16667,
+     "centerX": 4.1708984375,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.'",
+     "file": "costumes/1_134__font.default._x27_.png",
+     "scale": 8,
+     "width": 5.60069,
+     "height": 27.16667,
+     "centerX": 2.5498046875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.:",
+     "file": "costumes/1_135__font.default._x3a_.png",
+     "scale": 8,
+     "width": 5.34028,
+     "height": 27.16667,
+     "centerX": 2.41796875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.<",
+     "file": "costumes/1_136__font.default._x3c_.png",
+     "scale": 8,
+     "width": 14.68924,
+     "height": 27.16667,
+     "centerX": 7.0908203125,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.>",
+     "file": "costumes/1_137__font.default._x3e_.png",
+     "scale": 8,
+     "width": 14.68924,
+     "height": 27.16667,
+     "centerX": 7.0908203125,
+     "centerY": 15.916665876464833
+    },
+    {
+     "name": "_font.default.[",
+     "file": "costumes/1_138__font.default._x5b_.png",
+     "scale": 8,
+     "width": 7.11111,
+     "height": 27.16667,
+     "centerX": 3.267578125,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.]",
+     "file": "costumes/1_139__font.default._x5d_.png",
+     "scale": 8,
+     "width": 7.04167,
+     "height": 27.16667,
+     "centerX": 3.267578125,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.~",
+     "file": "costumes/1_140__font.default._x7e_.png",
+     "scale": 8,
+     "width": 14.68924,
+     "height": 27.16667,
+     "centerX": 7.0908203125,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.`",
+     "file": "costumes/1_141__font.default._x60_.png",
+     "scale": 8,
+     "width": 6.36458,
+     "height": 27.16667,
+     "centerX": 2.9306640625,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.default.;",
+     "file": "costumes/1_142__font.default._x3b_.png",
+     "scale": 8,
+     "width": 5.34028,
+     "height": 27.16667,
+     "centerX": 2.41796875,
+     "centerY": 15.916667938232422
+    },
+    {
+     "name": "_font.mopeds.a",
+     "file": "costumes/1_143__font.mopeds.a.png",
+     "scale": 8,
+     "width": 9,
+     "height": 24,
+     "centerX": 3.539997100830078,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.b",
+     "file": "costumes/1_144__font.mopeds.b.png",
+     "scale": 8,
+     "width": 11.5,
+     "height": 24,
+     "centerX": 6.229999542236328,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.c",
+     "file": "costumes/1_145__font.mopeds.c.png",
+     "scale": 8,
+     "width": 8.5,
+     "height": 24,
+     "centerX": 3.729999542236328,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.d",
+     "file": "costumes/1_146__font.mopeds.d.png",
+     "scale": 8,
+     "width": 11,
+     "height": 24,
+     "centerX": 4.479999542236328,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.e",
+     "file": "costumes/1_147__font.mopeds.e.png",
+     "scale": 8,
+     "width": 9,
+     "height": 24,
+     "centerX": 4.119998931884766,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.f",
+     "file": "costumes/1_148__font.mopeds.f.png",
+     "scale": 8,
+     "width": 9.5,
+     "height": 24,
+     "centerX": 3.6199989318847656,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.g",
+     "file": "costumes/1_149__font.mopeds.g.png",
+     "scale": 8,
+     "width": 11.5,
+     "height": 24,
+     "centerX": 5.4199981689453125,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.h",
+     "file": "costumes/1_150__font.mopeds.h.png",
+     "scale": 8,
+     "width": 13.5,
+     "height": 24,
+     "centerX": 6.6699981689453125,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.i",
+     "file": "costumes/1_151__font.mopeds.i.png",
+     "scale": 8,
+     "width": 7.02344,
+     "height": 24,
+     "centerX": 3.509998321533203,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.j",
+     "file": "costumes/1_152__font.mopeds.j.png",
+     "scale": 8,
+     "width": 8.58594,
+     "height": 24,
+     "centerX": 4.789997100830078,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.k",
+     "file": "costumes/1_153__font.mopeds.k.png",
+     "scale": 8,
+     "width": 12.5,
+     "height": 24,
+     "centerX": 5.779998779296875,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.l",
+     "file": "costumes/1_154__font.mopeds.l.png",
+     "scale": 8,
+     "width": 7,
+     "height": 24,
+     "centerX": 3.6299972534179688,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.m",
+     "file": "costumes/1_155__font.mopeds.m.png",
+     "scale": 8,
+     "width": 18.5,
+     "height": 24,
+     "centerX": 8.90999984741211,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.n",
+     "file": "costumes/1_156__font.mopeds.n.png",
+     "scale": 8,
+     "width": 13,
+     "height": 24,
+     "centerX": 6.109996795654297,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.o",
+     "file": "costumes/1_157__font.mopeds.o.png",
+     "scale": 8,
+     "width": 8.5,
+     "height": 24,
+     "centerX": 3.8799972534179688,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.p",
+     "file": "costumes/1_158__font.mopeds.p.png",
+     "scale": 8,
+     "width": 10.5,
+     "height": 24,
+     "centerX": 5.479999542236328,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.q",
+     "file": "costumes/1_159__font.mopeds.q.png",
+     "scale": 8,
+     "width": 9.5,
+     "height": 24,
+     "centerX": 4.189998626708984,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.r",
+     "file": "costumes/1_160__font.mopeds.r.png",
+     "scale": 8,
+     "width": 9.5,
+     "height": 24,
+     "centerX": 4.739997863769531,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.s",
+     "file": "costumes/1_161__font.mopeds.s.png",
+     "scale": 8,
+     "width": 9,
+     "height": 24,
+     "centerX": 4.239997863769531,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.t",
+     "file": "costumes/1_162__font.mopeds.t.png",
+     "scale": 8,
+     "width": 8.08594,
+     "height": 24,
+     "centerX": 4.039997100830078,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.u",
+     "file": "costumes/1_163__font.mopeds.u.png",
+     "scale": 8,
+     "width": 13,
+     "height": 24,
+     "centerX": 6.75,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.v",
+     "file": "costumes/1_164__font.mopeds.v.png",
+     "scale": 8,
+     "width": 11,
+     "height": 24,
+     "centerX": 5.259998321533203,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.w",
+     "file": "costumes/1_165__font.mopeds.w.png",
+     "scale": 8,
+     "width": 16,
+     "height": 24,
+     "centerX": 7.239997863769531,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.x",
+     "file": "costumes/1_166__font.mopeds.x.png",
+     "scale": 8,
+     "width": 11.5,
+     "height": 24,
+     "centerX": 5.379997253417969,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.y",
+     "file": "costumes/1_167__font.mopeds.y.png",
+     "scale": 8,
+     "width": 12.5,
+     "height": 24,
+     "centerX": 5.439998626708984,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.z",
+     "file": "costumes/1_168__font.mopeds.z.png",
+     "scale": 8,
+     "width": 9,
+     "height": 24,
+     "centerX": 3.779998779296875,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.0",
+     "file": "costumes/1_169__font.mopeds.0.png",
+     "scale": 8,
+     "width": 10.5,
+     "height": 24,
+     "centerX": 4.579998016357422,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.1",
+     "file": "costumes/1_170__font.mopeds.1.png",
+     "scale": 8,
+     "width": 7.5,
+     "height": 24,
+     "centerX": 3.779998779296875,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.2",
+     "file": "costumes/1_171__font.mopeds.2.png",
+     "scale": 8,
+     "width": 10.5,
+     "height": 24,
+     "centerX": 4.849998474121094,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.3",
+     "file": "costumes/1_172__font.mopeds.3.png",
+     "scale": 8,
+     "width": 10.96094,
+     "height": 24,
+     "centerX": 5.229999542236328,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.4",
+     "file": "costumes/1_173__font.mopeds.4.png",
+     "scale": 8,
+     "width": 11.5,
+     "height": 24,
+     "centerX": 5.789997100830078,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.5",
+     "file": "costumes/1_174__font.mopeds.5.png",
+     "scale": 8,
+     "width": 10,
+     "height": 24,
+     "centerX": 4.609996795654297,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.6",
+     "file": "costumes/1_175__font.mopeds.6.png",
+     "scale": 8,
+     "width": 11,
+     "height": 24,
+     "centerX": 4.989997863769531,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.7",
+     "file": "costumes/1_176__font.mopeds.7.png",
+     "scale": 8,
+     "width": 10.5,
+     "height": 24,
+     "centerX": 4.849998474121094,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.8",
+     "file": "costumes/1_177__font.mopeds.8.png",
+     "scale": 8,
+     "width": 11,
+     "height": 24,
+     "centerX": 5.179996490478516,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.9",
+     "file": "costumes/1_178__font.mopeds.9.png",
+     "scale": 8,
+     "width": 10.5,
+     "height": 24,
+     "centerX": 4.879997253417969,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.10",
+     "file": "costumes/1_179__font.mopeds.10.png",
+     "scale": 8,
+     "width": 10.5,
+     "height": 24,
+     "centerX": 4.579998016357422,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.-",
+     "file": "costumes/1_180__font.mopeds.-.png",
+     "scale": 8,
+     "width": 8,
+     "height": 24,
+     "centerX": 3.6399993896484375,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds._",
+     "file": "costumes/1_181__font.mopeds._.png",
+     "scale": 8,
+     "width": 9,
+     "height": 24,
+     "centerX": 4.319999694824219,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.+",
+     "file": "costumes/1_182__font.mopeds._x2b_.png",
+     "scale": 8,
+     "width": 8.54688,
+     "height": 24,
+     "centerX": 4.019996643066406,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds..",
+     "file": "costumes/1_183__font.mopeds...png",
+     "scale": 8,
+     "width": 4.625,
+     "height": 24,
+     "centerX": 2.05999755859375,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.=",
+     "file": "costumes/1_184__font.mopeds._x3d_.png",
+     "scale": 8,
+     "width": 8,
+     "height": 24,
+     "centerX": 3.7099990844726562,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.<",
+     "file": "costumes/1_185__font.mopeds._x3c_.png",
+     "scale": 8,
+     "width": 6.0625,
+     "height": 24,
+     "centerX": 2.779998779296875,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.>",
+     "file": "costumes/1_186__font.mopeds._x3e_.png",
+     "scale": 8,
+     "width": 7,
+     "height": 24,
+     "centerX": 3.25,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.|",
+     "file": "costumes/1_187__font.mopeds._x7c_.png",
+     "scale": 8,
+     "width": 5.84375,
+     "height": 24,
+     "centerX": 2.6699981689453125,
+     "centerY": 10.75
+    },
+    {
+     "name": "_font.mopeds.\\",
+     "file": "costumes/1_188__font.mopeds._x5c_.png",
+     "scale": 8,
+     "width": 9,
+     "height": 24,
+     "centerX": 2.6699981689453125,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.'",
+     "file": "costumes/1_189__font.mopeds._x27_.png",
+     "scale": 8,
+     "width": 4,
+     "height": 24,
+     "centerX": 1.3299980163574219,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.\"",
+     "file": "costumes/1_190__font.mopeds._x22_.png",
+     "scale": 8,
+     "width": 6.5,
+     "height": 24,
+     "centerX": 2.4699974060058594,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.[",
+     "file": "costumes/1_191__font.mopeds._x5b_.png",
+     "scale": 8,
+     "width": 7.5,
+     "height": 24,
+     "centerX": 2.3199996948242188,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.]",
+     "file": "costumes/1_192__font.mopeds._x5d_.png",
+     "scale": 8,
+     "width": 6,
+     "height": 24,
+     "centerX": 2.3199996948242188,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds./",
+     "file": "costumes/1_193__font.mopeds._x2f_.png",
+     "scale": 8,
+     "width": 9,
+     "height": 24,
+     "centerX": 4.009998321533203,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.,",
+     "file": "costumes/1_194__font.mopeds._x2c_.png",
+     "scale": 8,
+     "width": 5.26563,
+     "height": 24,
+     "centerX": 2.3799972534179688,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.?",
+     "file": "costumes/1_195__font.mopeds._x3f_.png",
+     "scale": 8,
+     "width": 8.5,
+     "height": 24,
+     "centerX": 3.4499969482421875,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.!",
+     "file": "costumes/1_196__font.mopeds._x21_.png",
+     "scale": 8,
+     "width": 4.5,
+     "height": 24,
+     "centerX": 1.7599983215332031,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.@",
+     "file": "costumes/1_197__font.mopeds._x40_.png",
+     "scale": 8,
+     "width": 11,
+     "height": 24,
+     "centerX": 4.359996795654297,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.#",
+     "file": "costumes/1_198__font.mopeds._x23_.png",
+     "scale": 8,
+     "width": 10,
+     "height": 24,
+     "centerX": 4.529998779296875,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.$",
+     "file": "costumes/1_199__font.mopeds._x24_.png",
+     "scale": 8,
+     "width": 8,
+     "height": 24,
+     "centerX": 3.4199981689453125,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.%",
+     "file": "costumes/1_200__font.mopeds._x25_.png",
+     "scale": 8,
+     "width": 10,
+     "height": 24,
+     "centerX": 3.2399978637695312,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.^",
+     "file": "costumes/1_201__font.mopeds._x5e_.png",
+     "scale": 8,
+     "width": 7.30469,
+     "height": 24,
+     "centerX": 3.3999977111816406,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.&",
+     "file": "costumes/1_202__font.mopeds._x26_.png",
+     "scale": 8,
+     "width": 12,
+     "height": 24,
+     "centerX": 5.439998626708984,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.*",
+     "file": "costumes/1_203__font.mopeds._x2a_.png",
+     "scale": 8,
+     "width": 8.02344,
+     "height": 24,
+     "centerX": 3.759998321533203,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.(",
+     "file": "costumes/1_204__font.mopeds._x28_.png",
+     "scale": 8,
+     "width": 6.125,
+     "height": 24,
+     "centerX": 2.80999755859375,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.)",
+     "file": "costumes/1_205__font.mopeds._x29_.png",
+     "scale": 8,
+     "width": 6.5,
+     "height": 24,
+     "centerX": 2.80999755859375,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.~",
+     "file": "costumes/1_206__font.mopeds._x7e_.png",
+     "scale": 8,
+     "width": 9.46094,
+     "height": 24,
+     "centerX": 4.479999542236328,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.`",
+     "file": "costumes/1_207__font.mopeds._x60_.png",
+     "scale": 8,
+     "width": 4.5,
+     "height": 24,
+     "centerX": 1.7899971008300781,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.:",
+     "file": "costumes/1_208__font.mopeds._x3a_.png",
+     "scale": 8,
+     "width": 5,
+     "height": 24,
+     "centerX": 1.7299995422363281,
+     "centerY": 8.25
+    },
+    {
+     "name": "_font.mopeds.;",
+     "file": "costumes/1_209__font.mopeds._x3b_.png",
+     "scale": 8,
+     "width": 5,
+     "height": 24,
+     "centerX": 1.8299980163574219,
+     "centerY": 8.25
+    },
+    {
+     "name": "_gui.color",
+     "file": "costumes/1_210__gui.color.png",
+     "scale": 8,
+     "width": 17.09412,
+     "height": 17.09412,
+     "centerX": 8.547059999999988,
+     "centerY": 8.547059999999988
+    },
+    {
+     "name": "_gui.slider",
+     "file": "costumes/1_211__gui.slider.png",
+     "scale": 8,
+     "width": 9.70123,
+     "height": 17.09412,
+     "centerX": 4.8527984014662024,
+     "centerY": 8.547059999999988
+    },
+    {
+     "name": "_gui.screen",
+     "file": "costumes/1_212__gui.screen.png",
+     "scale": 4,
+     "width": 480,
+     "height": 50.78873,
+     "centerX": 239.9999999999999,
+     "centerY": 51.12665691699735
+    },
+    {
+     "name": "costume1",
+     "file": "costumes/1_213_costume1.png",
+     "scale": 8,
+     "width": 0,
+     "height": 0,
+     "centerX": 0,
+     "centerY": 0
+    },
+    {
+     "name": "_mouse.busy",
+     "file": "costumes/1_214__mouse.busy.png",
+     "scale": 8,
+     "width": 46.368,
+     "height": 46,
+     "centerX": 23.183999999999997,
+     "centerY": 23
+    },
+    {
+     "name": "_mouse.",
+     "file": "costumes/1_215__mouse..png",
+     "scale": 8,
+     "width": 34,
+     "height": 46,
+     "centerX": 17,
+     "centerY": 23
+    },
+    {
+     "name": "_mouse.load",
+     "file": "costumes/1_216__mouse.load.png",
+     "scale": 2,
+     "width": 33,
+     "height": 49,
+     "centerX": 16.5,
+     "centerY": 24.5
+    },
+    {
+     "name": "_mouse.change",
+     "file": "costumes/1_217__mouse.change.png",
+     "scale": 2,
+     "width": 47.5,
+     "height": 50,
+     "centerX": 21,
+     "centerY": 25
+    },
+    {
+     "name": "_mouse.click",
+     "file": "costumes/1_218__mouse.click.png",
+     "scale": 2,
+     "width": 41,
+     "height": 58,
+     "centerX": 20.5,
+     "centerY": 29
+    },
+    {
+     "name": "_mouse.grab",
+     "file": "costumes/1_219__mouse.grab.png",
+     "scale": 2,
+     "width": 35,
+     "height": 45.5,
+     "centerX": 13.5,
+     "centerY": 15.5
+    },
+    {
+     "name": "_gui.balloon",
+     "file": "costumes/1_220__gui.balloon.png",
+     "scale": 4,
+     "width": 232,
+     "height": 70,
+     "centerX": 118,
+     "centerY": 32
+    },
+    {
+     "name": "_gui.info",
+     "file": "costumes/1_221__gui.info.png",
+     "scale": 4,
+     "width": 232,
+     "height": 70,
+     "centerX": 118,
+     "centerY": 32
+    },
+    {
+     "name": "_gui.balloonextend",
+     "file": "costumes/1_222__gui.balloonextend.png",
+     "scale": 4,
+     "width": 423.5,
+     "height": 70,
+     "centerX": 211,
+     "centerY": 32
+    },
+    {
+     "name": "_gui.dark",
+     "file": "costumes/1_223__gui.dark.png",
+     "scale": 4,
+     "width": 491.89944,
+     "height": 368.92458,
+     "centerX": 245.94972,
+     "centerY": 184.46229
+    },
+    {
+     "name": "_gui.selector",
+     "file": "costumes/1_224__gui.selector.png",
+     "scale": 4,
+     "width": 87.29394,
+     "height": 25.90346,
+     "centerX": 43.64697000000001,
+     "centerY": 12.951729999999998
+    },
+    {
+     "name": "_gui.fade",
+     "file": "costumes/1_225__gui.fade.png",
+     "scale": 4,
+     "width": 113,
+     "height": 138.5,
+     "centerX": 56.49999999999997,
+     "centerY": 69.25
+    },
+    {
+     "name": "_gui.darkfade",
+     "file": "costumes/1_226__gui.darkfade.png",
+     "scale": 4,
+     "width": 491.89944,
+     "height": 298.61882,
+     "centerX": 245.94972,
+     "centerY": 195.1531773834284
+    },
+    {
+     "name": "_engine.bitmap",
+     "file": "costumes/1_227__engine.bitmap.png",
+     "scale": 2,
+     "width": 393.5,
+     "height": 226.5,
+     "centerX": 196.75,
+     "centerY": 113.25
+    },
+    {
+     "name": "_engine.1",
+     "file": "costumes/1_228__engine.1.png",
+     "scale": 4,
+     "width": 229.70851,
+     "height": 229.70851,
+     "centerX": 114.85425434815673,
+     "centerY": 114.85426434815662
+    },
+    {
+     "name": "_engine.tile",
+     "file": "costumes/1_229__engine.tile.png",
+     "scale": 4,
+     "width": 135,
+     "height": 156,
+     "centerX": 67.5,
+     "centerY": 78
+    },
+    {
+     "name": "_engine.segment",
+     "file": "costumes/1_230__engine.segment.png",
+     "scale": 4,
+     "width": 144,
+     "height": 145,
+     "centerX": 72,
+     "centerY": 72.5
+    },
+    {
+     "name": "_engine.mode7",
+     "file": "costumes/1_231__engine.mode7.png",
+     "scale": 4,
+     "width": 162.5,
+     "height": 98,
+     "centerX": 81.25,
+     "centerY": 49
+    },
+    {
+     "name": "_engine.voxel",
+     "file": "costumes/1_232__engine.voxel.png",
+     "scale": 4,
+     "width": 190.07459,
+     "height": 202.05174,
+     "centerX": 94.71247912109376,
+     "centerY": 74.5
+    },
+    {
+     "name": "_gui.contrast",
+     "file": "costumes/1_233__gui.contrast.png",
+     "scale": 4,
+     "width": 483.71336,
+     "height": 364.3974,
+     "centerX": 241.85668089906898,
+     "centerY": 182.19869961063188
+    },
+    {
+     "name": "_gui.error",
+     "file": "costumes/1_234__gui.error.png",
+     "scale": 2,
+     "width": 480,
+     "height": 360,
+     "centerX": 240,
+     "centerY": 180
+    },
+    {
+     "name": "_icon.seperator",
+     "file": "costumes/1_235__icon.seperator.png",
+     "scale": 8,
+     "width": 3.70355,
+     "height": 51.02097,
+     "centerX": 1.851767728304992,
+     "centerY": 25.470289509597592
+    },
+    {
+     "name": "_gui.missing_render",
+     "file": "costumes/1_236__gui.missing_render.png",
+     "scale": 4,
+     "width": 436.22206,
+     "height": 23.19958,
+     "centerX": 217.90199276423567,
+     "centerY": 13.241368734389908
+    },
+    {
+     "name": "_gui.drag_model",
+     "file": "costumes/1_237__gui.drag_model.png",
+     "scale": 4,
+     "width": 457.30828,
+     "height": 28.86321,
+     "centerX": 227.06266208703508,
+     "centerY": 14.431604997534748
+    },
+    {
+     "name": "_gui.drag_script",
+     "file": "costumes/1_238__gui.drag_script.png",
+     "scale": 4,
+     "width": 398.38848,
+     "height": 31.08669,
+     "centerX": 198.98687149169922,
+     "centerY": 15.543345543345538
+    },
+    {
+     "name": "_engine.skybox_1",
+     "file": "costumes/1_239__engine.skybox_1.png",
+     "scale": 2,
+     "width": 256,
+     "height": 256,
+     "centerX": 128,
+     "centerY": 128
+    },
+    {
+     "name": "_engine.skybox_2",
+     "file": "costumes/1_240__engine.skybox_2.png",
+     "scale": 2,
+     "width": 256,
+     "height": 256,
+     "centerX": 128,
+     "centerY": 128
+    },
+    {
+     "name": "_engine.skybox_3",
+     "file": "costumes/1_241__engine.skybox_3.png",
+     "scale": 2,
+     "width": 256,
+     "height": 256,
+     "centerX": 128,
+     "centerY": 128
+    },
+    {
+     "name": "_engine.ground",
+     "file": "costumes/1_242__engine.ground.png",
+     "scale": 4,
+     "width": 485,
+     "height": 191.68421,
+     "centerX": 242.5,
+     "centerY": 9.184210526315809
+    },
+    {
+     "name": "_engine.sun",
+     "file": "costumes/1_243__engine.sun.png",
+     "scale": 2,
+     "width": 332.5,
+     "height": 332.5,
+     "centerX": 166.5,
+     "centerY": 166.5
+    },
+    {
+     "name": "_engine.aero_bar",
+     "file": "costumes/1_244__engine.aero_bar.png",
+     "scale": 2,
+     "width": 415.5,
+     "height": 42,
+     "centerX": 207,
+     "centerY": 21
+    },
+    {
+     "name": "_engine.block",
+     "file": "costumes/1_245__engine.block.png",
+     "scale": 2,
+     "width": 223,
+     "height": 97,
+     "centerX": 111.5,
+     "centerY": 48.5
+    },
+    {
+     "name": "_engine.block6",
+     "file": "costumes/1_246__engine.block6.png",
+     "scale": 2,
+     "width": 345,
+     "height": 97,
+     "centerX": 172.5,
+     "centerY": 48.5
+    },
+    {
+     "name": "_engine.block2",
+     "file": "costumes/1_247__engine.block2.png",
+     "scale": 2,
+     "width": 85.5,
+     "height": 132,
+     "centerX": 43.5,
+     "centerY": 47.5
+    },
+    {
+     "name": "_engine.block4",
+     "file": "costumes/1_248__engine.block4.png",
+     "scale": 2,
+     "width": 53.5,
+     "height": 83.5,
+     "centerX": 27,
+     "centerY": 48
+    },
+    {
+     "name": "_engine.block3",
+     "file": "costumes/1_249__engine.block3.png",
+     "scale": 2,
+     "width": 17,
+     "height": 83.5,
+     "centerX": 8.5,
+     "centerY": 48
+    },
+    {
+     "name": "_engine.block5",
+     "file": "costumes/1_250__engine.block5.png",
+     "scale": 2,
+     "width": 62,
+     "height": 84,
+     "centerX": 32,
+     "centerY": 48
+    },
+    {
+     "name": "_engine.line",
+     "file": "costumes/1_251__engine.line.png",
+     "scale": 2,
+     "width": 469,
+     "height": 5,
+     "centerX": 234.5,
+     "centerY": 2.5
+    },
+    {
+     "name": "_engine.box",
+     "file": "costumes/1_252__engine.box.png",
+     "scale": 4,
+     "width": 80.82353,
+     "height": 80.82353,
+     "centerX": 40.41176470588249,
+     "centerY": 40.411764705882376
+    },
+    {
+     "name": "_engine.background",
+     "file": "costumes/1_253__engine.background.png",
+     "scale": 2,
+     "width": 480,
+     "height": 359.5,
+     "centerX": 240,
+     "centerY": 180
+    },
+    {
+     "name": "_engine.banner_6",
+     "file": "costumes/1_254__engine.banner_6.png",
+     "scale": 4,
+     "width": 283.5,
+     "height": 360,
+     "centerX": 141.75,
+     "centerY": 180
+    },
+    {
+     "name": "_engine.banner_5",
+     "file": "costumes/1_255__engine.banner_5.png",
+     "scale": 4,
+     "width": 314,
+     "height": 360,
+     "centerX": 157,
+     "centerY": 180
+    },
+    {
+     "name": "_engine.banner_4",
+     "file": "costumes/1_256__engine.banner_4.png",
+     "scale": 4,
+     "width": 314,
+     "height": 360,
+     "centerX": 157,
+     "centerY": 180
+    },
+    {
+     "name": "_engine.banner_3",
+     "file": "costumes/1_257__engine.banner_3.png",
+     "scale": 4,
+     "width": 314,
+     "height": 360,
+     "centerX": 157,
+     "centerY": 180
+    },
+    {
+     "name": "_engine.banner_2",
+     "file": "costumes/1_258__engine.banner_2.png",
+     "scale": 4,
+     "width": 314,
+     "height": 360,
+     "centerX": 157,
+     "centerY": 180
+    },
+    {
+     "name": "_engine.banner_1",
+     "file": "costumes/1_259__engine.banner_1.png",
+     "scale": 4,
+     "width": 313.5,
+     "height": 360,
+     "centerX": 156.75,
+     "centerY": 180
+    },
+    {
+     "name": "_engine.splash",
+     "file": "costumes/1_260__engine.splash.png",
+     "scale": 2,
+     "width": 480,
+     "height": 324,
+     "centerX": 240,
+     "centerY": 162
+    },
+    {
+     "name": "bar",
+     "file": "costumes/1_261_bar.png",
+     "scale": 4,
+     "width": 482.5,
+     "height": 30.27863,
+     "centerX": 241.25000000000006,
+     "centerY": 15.139307081751156
+    },
+    {
+     "name": "box",
+     "file": "costumes/1_262_box.png",
+     "scale": 4,
+     "width": 362.5,
+     "height": 362.5,
+     "centerX": 181.24999999999983,
+     "centerY": 181.24999999999977
+    },
+    {
+     "name": "menu",
+     "file": "costumes/1_263_menu.png",
+     "scale": 4,
+     "width": 242.42495,
+     "height": 362.5,
+     "centerX": 121.21247654784216,
+     "centerY": 181.24999999999977
+    },
+    {
+     "name": "screen",
+     "file": "costumes/1_264_screen.png",
+     "scale": 4,
+     "width": 482.5,
+     "height": 362.5,
+     "centerX": 241.2500030956841,
+     "centerY": 181.24999999999977
+    },
+    {
+     "name": "button",
+     "file": "costumes/1_265_button.png",
+     "scale": 4,
+     "width": 86.34393,
+     "height": 30.50489,
+     "centerX": 43.17196954991351,
+     "centerY": 15.252717779403525
+    },
+    {
+     "name": "slot",
+     "file": "costumes/1_266_slot.png",
+     "scale": 8,
+     "width": 30.66014,
+     "height": 30.50774,
+     "centerX": 15.330072328332363,
+     "centerY": 15.255568192073952
+    },
+    {
+     "name": "_engine.e3d",
+     "file": "costumes/1_267__engine.e3d.png",
+     "scale": 4,
+     "width": 190,
+     "height": 185,
+     "centerX": 95,
+     "centerY": 92.5
+    },
+    {
+     "name": "_engine.u",
+     "file": "costumes/1_268__engine.u.png",
+     "scale": 4,
+     "width": 127,
+     "height": 127,
+     "centerX": 63.5,
+     "centerY": 63.5
+    },
+    {
+     "name": "_engine.l",
+     "file": "costumes/1_269__engine.l.png",
+     "scale": 4,
+     "width": 129,
+     "height": 127,
+     "centerX": 64.5,
+     "centerY": 63.5
+    },
+    {
+     "name": "_engine.g",
+     "file": "costumes/1_270__engine.g.png",
+     "scale": 4,
+     "width": 156,
+     "height": 156,
+     "centerX": 78,
+     "centerY": 78
+    },
+    {
+     "name": "_engine.beam",
+     "file": "costumes/1_271__engine.beam.png",
+     "scale": 4,
+     "width": 480,
+     "height": 109,
+     "centerX": 240,
+     "centerY": 54.5
+    },
+    {
+     "name": "costume2",
+     "file": "costumes/1_272_costume2.png",
+     "scale": 4,
+     "width": 480,
+     "height": 360,
+     "centerX": 240,
+     "centerY": 180
+    },
+    {
+     "name": "_engine.clouds",
+     "file": "costumes/1_273__engine.clouds.png",
+     "scale": 4,
+     "width": 480,
+     "height": 360,
+     "centerX": 240,
+     "centerY": 180
+    },
+    {
+     "name": "effect",
+     "file": "costumes/1_274_effect.png",
+     "scale": 2,
+     "width": 480,
+     "height": 360,
+     "centerX": 240,
+     "centerY": 180
+    },
+    {
+     "name": "dark",
+     "file": "costumes/1_275_dark.png",
+     "scale": 2,
+     "width": 480,
+     "height": 360,
+     "centerX": 240,
+     "centerY": 180
+    }
+   ],
+   "sounds": [
+    {
+     "name": "Windows Vista Beta Balloon",
+     "file": "sounds/1_001_Windows_x20_Vista_x20_Beta_x20_Balloon.wav"
+    },
+    {
+     "name": "Windows Vista Beta Battery Critical",
+     "file": "sounds/1_002_Windows_x20_Vista_x20_Beta_x20_Battery_x20_Critical.wav"
+    },
+    {
+     "name": "Windows Vista Beta Battery Low",
+     "file": "sounds/1_003_Windows_x20_Vista_x20_Beta_x20_Battery_x20_Low.wav"
+    },
+    {
+     "name": "Windows Vista Beta Blip 1",
+     "file": "sounds/1_004_Windows_x20_Vista_x20_Beta_x20_Blip_x20_1.wav"
+    },
+    {
+     "name": "Windows Vista Beta Blip 2",
+     "file": "sounds/1_005_Windows_x20_Vista_x20_Beta_x20_Blip_x20_2.wav"
+    },
+    {
+     "name": "Windows Vista Beta Contact Online",
+     "file": "sounds/1_006_Windows_x20_Vista_x20_Beta_x20_Contact_x20_Online.wav"
+    },
+    {
+     "name": "Error_1",
+     "file": "sounds/1_007_Error_1.wav"
+    },
+    {
+     "name": "Ding_1",
+     "file": "sounds/1_008_Ding_1.wav"
+    },
+    {
+     "name": "Windows Vista Beta Error",
+     "file": "sounds/1_009_Windows_x20_Vista_x20_Beta_x20_Error.wav"
+    },
+    {
+     "name": "Windows Vista Beta Exclamation",
+     "file": "sounds/1_010_Windows_x20_Vista_x20_Beta_x20_Exclamation.wav"
+    },
+    {
+     "name": "Windows Vista Beta Hardware Fail",
+     "file": "sounds/1_011_Windows_x20_Vista_x20_Beta_x20_Hardware_x20_Fail.wav"
+    },
+    {
+     "name": "warn_1",
+     "file": "sounds/1_012_warn_1.wav"
+    },
+    {
+     "name": "Windows Vista Beta Hardware Remove",
+     "file": "sounds/1_013_Windows_x20_Vista_x20_Beta_x20_Hardware_x20_Remove.wav"
+    },
+    {
+     "name": "Windows Vista Beta IRBegin",
+     "file": "sounds/1_014_Windows_x20_Vista_x20_Beta_x20_IRBegin.wav"
+    },
+    {
+     "name": "Windows Vista Beta IREnd",
+     "file": "sounds/1_015_Windows_x20_Vista_x20_Beta_x20_IREnd.wav"
+    },
+    {
+     "name": "Windows Vista Beta IRInter",
+     "file": "sounds/1_016_Windows_x20_Vista_x20_Beta_x20_IRInter.wav"
+    },
+    {
+     "name": "Windows Vista Beta Logoff",
+     "file": "sounds/1_017_Windows_x20_Vista_x20_Beta_x20_Logoff.wav"
+    },
+    {
+     "name": "Windows Vista Beta Logon",
+     "file": "sounds/1_018_Windows_x20_Vista_x20_Beta_x20_Logon.wav"
+    },
+    {
+     "name": "Windows Vista Beta Navigating",
+     "file": "sounds/1_019_Windows_x20_Vista_x20_Beta_x20_Navigating.wav"
+    },
+    {
+     "name": "Windows Vista Beta New Alert",
+     "file": "sounds/1_020_Windows_x20_Vista_x20_Beta_x20_New_x20_Alert.wav"
+    },
+    {
+     "name": "Windows Vista Beta New Mail",
+     "file": "sounds/1_021_Windows_x20_Vista_x20_Beta_x20_New_x20_Mail.wav"
+    },
+    {
+     "name": "Windows Vista Beta New Message",
+     "file": "sounds/1_022_Windows_x20_Vista_x20_Beta_x20_New_x20_Message.wav"
+    },
+    {
+     "name": "Windows Vista Beta Notify",
+     "file": "sounds/1_023_Windows_x20_Vista_x20_Beta_x20_Notify.wav"
+    },
+    {
+     "name": "Windows Vista Beta Recycle 2",
+     "file": "sounds/1_024_Windows_x20_Vista_x20_Beta_x20_Recycle_x20_2.wav"
+    },
+    {
+     "name": "Windows Vista Beta Recycle",
+     "file": "sounds/1_025_Windows_x20_Vista_x20_Beta_x20_Recycle.wav"
+    },
+    {
+     "name": "Windows Vista Beta Ringin 1",
+     "file": "sounds/1_026_Windows_x20_Vista_x20_Beta_x20_Ringin_x20_1.wav"
+    },
+    {
+     "name": "Windows Vista Beta Ringin 2",
+     "file": "sounds/1_027_Windows_x20_Vista_x20_Beta_x20_Ringin_x20_2.wav"
+    },
+    {
+     "name": "Windows Vista Beta Shutdown",
+     "file": "sounds/1_028_Windows_x20_Vista_x20_Beta_x20_Shutdown.wav"
+    },
+    {
+     "name": "Windows Vista Beta Startup",
+     "file": "sounds/1_029_Windows_x20_Vista_x20_Beta_x20_Startup.wav"
+    },
+    {
+     "name": "01 Windows XP Tour intro",
+     "file": "sounds/1_030_01_x20_Windows_x20_XP_x20_Tour_x20_intro.mp3"
+    },
+    {
+     "name": "05 Windows XP Tour 5",
+     "file": "sounds/1_031_05_x20_Windows_x20_XP_x20_Tour_x20_5.mp3"
+    },
+    {
+     "name": "chimes",
+     "file": "sounds/1_032_chimes.mp3"
+    },
+    {
+     "name": "Chord",
+     "file": "sounds/1_033_Chord.mp3"
+    },
+    {
+     "name": "Ding_2",
+     "file": "sounds/1_034_Ding_2.mp3"
+    },
+    {
+     "name": "notify",
+     "file": "sounds/1_035_notify.mp3"
+    },
+    {
+     "name": "recycle",
+     "file": "sounds/1_036_recycle.mp3"
+    },
+    {
+     "name": "ringin",
+     "file": "sounds/1_037_ringin.mp3"
+    },
+    {
+     "name": "flourish",
+     "file": "sounds/1_038_flourish.mp3"
+    },
+    {
+     "name": "ringout",
+     "file": "sounds/1_039_ringout.mp3"
+    },
+    {
+     "name": "start",
+     "file": "sounds/1_040_start.mp3"
+    },
+    {
+     "name": "tada",
+     "file": "sounds/1_041_tada.mp3"
+    },
+    {
+     "name": "Windows Feed Discovered",
+     "file": "sounds/1_042_Windows_x20_Feed_x20_Discovered.mp3"
+    },
+    {
+     "name": "Windows Information Bar",
+     "file": "sounds/1_043_Windows_x20_Information_x20_Bar.wav"
+    },
+    {
+     "name": "town",
+     "file": "sounds/1_044_town.mp3"
+    },
+    {
+     "name": "Windows Navigation Start",
+     "file": "sounds/1_045_Windows_x20_Navigation_x20_Start.mp3"
+    },
+    {
+     "name": "Ding_3",
+     "file": "sounds/1_046_Ding_3.wav"
+    },
+    {
+     "name": "Windows XP Balloon",
+     "file": "sounds/1_047_Windows_x20_XP_x20_Balloon.mp3"
+    },
+    {
+     "name": "Windows XP Battery Critical",
+     "file": "sounds/1_048_Windows_x20_XP_x20_Battery_x20_Critical.mp3"
+    },
+    {
+     "name": "Error_3",
+     "file": "sounds/1_049_Error_3.mp3"
+    },
+    {
+     "name": "Windows XP Critical Stop",
+     "file": "sounds/1_050_Windows_x20_XP_x20_Critical_x20_Stop.mp3"
+    },
+    {
+     "name": "Windows XP Default",
+     "file": "sounds/1_051_Windows_x20_XP_x20_Default.mp3"
+    },
+    {
+     "name": "Windows XP Ding",
+     "file": "sounds/1_052_Windows_x20_XP_x20_Ding.mp3"
+    },
+    {
+     "name": "Exclame_2",
+     "file": "sounds/1_053_Exclame_2.mp3"
+    },
+    {
+     "name": "Exclame_1",
+     "file": "sounds/1_054_Exclame_1.wav"
+    },
+    {
+     "name": "Error_2",
+     "file": "sounds/1_055_Error_2.mp3"
+    },
+    {
+     "name": "Windows XP Hardware Insert",
+     "file": "sounds/1_056_Windows_x20_XP_x20_Hardware_x20_Insert.mp3"
+    },
+    {
+     "name": "Windows XP Hardware Remove",
+     "file": "sounds/1_057_Windows_x20_XP_x20_Hardware_x20_Remove.mp3"
+    },
+    {
+     "name": "Windows XP Information Bar",
+     "file": "sounds/1_058_Windows_x20_XP_x20_Information_x20_Bar.mp3"
+    },
+    {
+     "name": "Windows XP Logoff Sound",
+     "file": "sounds/1_059_Windows_x20_XP_x20_Logoff_x20_Sound.mp3"
+    },
+    {
+     "name": "Windows XP Logon Sound",
+     "file": "sounds/1_060_Windows_x20_XP_x20_Logon_x20_Sound.mp3"
+    },
+    {
+     "name": "Windows XP Menu Command",
+     "file": "sounds/1_061_Windows_x20_XP_x20_Menu_x20_Command.mp3"
+    },
+    {
+     "name": "Windows XP Minimize",
+     "file": "sounds/1_062_Windows_x20_XP_x20_Minimize.mp3"
+    },
+    {
+     "name": "Exclame_3",
+     "file": "sounds/1_063_Exclame_3.wav"
+    },
+    {
+     "name": "Windows XP Pop-up Blocked",
+     "file": "sounds/1_064_Windows_x20_XP_x20_Pop-up_x20_Blocked.mp3"
+    },
+    {
+     "name": "Windows XP Print complete",
+     "file": "sounds/1_065_Windows_x20_XP_x20_Print_x20_complete.wav"
+    },
+    {
+     "name": "Windows XP Recycle",
+     "file": "sounds/1_066_Windows_x20_XP_x20_Recycle.mp3"
+    },
+    {
+     "name": "Windows XP Restore",
+     "file": "sounds/1_067_Windows_x20_XP_x20_Restore.mp3"
+    },
+    {
+     "name": "Windows XP Ringin",
+     "file": "sounds/1_068_Windows_x20_XP_x20_Ringin.mp3"
+    },
+    {
+     "name": "Windows XP Ringout",
+     "file": "sounds/1_069_Windows_x20_XP_x20_Ringout.mp3"
+    },
+    {
+     "name": "Windows XP Shutdown",
+     "file": "sounds/1_070_Windows_x20_XP_x20_Shutdown.mp3"
+    },
+    {
+     "name": "Windows XP Start",
+     "file": "sounds/1_071_Windows_x20_XP_x20_Start.mp3"
+    },
+    {
+     "name": "Windows XP Startup",
+     "file": "sounds/1_072_Windows_x20_XP_x20_Startup.mp3"
+    },
+    {
+     "name": "chimes2",
+     "file": "sounds/1_073_chimes2.wav"
+    },
+    {
+     "name": "chord",
+     "file": "sounds/1_074_chord.wav"
+    },
+    {
+     "name": "ding",
+     "file": "sounds/1_075_ding.mp3"
+    },
+    {
+     "name": "ir_begin",
+     "file": "sounds/1_076_ir_begin.wav"
+    },
+    {
+     "name": "ir_end",
+     "file": "sounds/1_077_ir_end.wav"
+    },
+    {
+     "name": "ir_inter",
+     "file": "sounds/1_078_ir_inter.wav"
+    },
+    {
+     "name": "notify2",
+     "file": "sounds/1_079_notify2.wav"
+    },
+    {
+     "name": "notify3",
+     "file": "sounds/1_080_notify3.wav"
+    },
+    {
+     "name": "flourish2",
+     "file": "sounds/1_081_flourish2.mp3"
+    },
+    {
+     "name": "recycle2",
+     "file": "sounds/1_082_recycle2.mp3"
+    },
+    {
+     "name": "recycle3",
+     "file": "sounds/1_083_recycle3.wav"
+    },
+    {
+     "name": "ringin2",
+     "file": "sounds/1_084_ringin2.mp3"
+    },
+    {
+     "name": "ringout2",
+     "file": "sounds/1_085_ringout2.mp3"
+    },
+    {
+     "name": "ringout3",
+     "file": "sounds/1_086_ringout3.wav"
+    },
+    {
+     "name": "Speech Disambiguation",
+     "file": "sounds/1_087_Speech_x20_Disambiguation.wav"
+    },
+    {
+     "name": "Speech Misrecognition",
+     "file": "sounds/1_088_Speech_x20_Misrecognition.wav"
+    },
+    {
+     "name": "Speech Off",
+     "file": "sounds/1_089_Speech_x20_Off.wav"
+    },
+    {
+     "name": "Speech On",
+     "file": "sounds/1_090_Speech_x20_On.wav"
+    },
+    {
+     "name": "Speech Sleep",
+     "file": "sounds/1_091_Speech_x20_Sleep.wav"
+    },
+    {
+     "name": "tada2",
+     "file": "sounds/1_092_tada2.mp3"
+    },
+    {
+     "name": "tada3",
+     "file": "sounds/1_093_tada3.wav"
+    },
+    {
+     "name": "Windows Balloon",
+     "file": "sounds/1_094_Windows_x20_Balloon.wav"
+    },
+    {
+     "name": "Windows Battery Critical",
+     "file": "sounds/1_095_Windows_x20_Battery_x20_Critical.wav"
+    },
+    {
+     "name": "Windows Battery Low",
+     "file": "sounds/1_096_Windows_x20_Battery_x20_Low.wav"
+    },
+    {
+     "name": "Windows Critical Stop",
+     "file": "sounds/1_097_Windows_x20_Critical_x20_Stop.wav"
+    },
+    {
+     "name": "Windows Default",
+     "file": "sounds/1_098_Windows_x20_Default.wav"
+    },
+    {
+     "name": "Windows Ding",
+     "file": "sounds/1_099_Windows_x20_Ding.wav"
+    },
+    {
+     "name": "Windows Error",
+     "file": "sounds/1_100_Windows_x20_Error.wav"
+    },
+    {
+     "name": "Windows Exclamation",
+     "file": "sounds/1_101_Windows_x20_Exclamation.wav"
+    },
+    {
+     "name": "Windows Feed Discovered3",
+     "file": "sounds/1_102_Windows_x20_Feed_x20_Discovered3.wav"
+    },
+    {
+     "name": "Windows Hardware Fail",
+     "file": "sounds/1_103_Windows_x20_Hardware_x20_Fail.wav"
+    },
+    {
+     "name": "Windows Hardware Insert",
+     "file": "sounds/1_104_Windows_x20_Hardware_x20_Insert.wav"
+    },
+    {
+     "name": "Windows Hardware Remove",
+     "file": "sounds/1_105_Windows_x20_Hardware_x20_Remove.wav"
+    },
+    {
+     "name": "Windows Information Bar2",
+     "file": "sounds/1_106_Windows_x20_Information_x20_Bar2.mp3"
+    },
+    {
+     "name": "Windows Information Bar3",
+     "file": "sounds/1_107_Windows_x20_Information_x20_Bar3.wav"
+    },
+    {
+     "name": "Windows Logoff Sound",
+     "file": "sounds/1_108_Windows_x20_Logoff_x20_Sound.wav"
+    },
+    {
+     "name": "Windows Logon Sound",
+     "file": "sounds/1_109_Windows_x20_Logon_x20_Sound.wav"
+    },
+    {
+     "name": "Windows Menu Command",
+     "file": "sounds/1_110_Windows_x20_Menu_x20_Command.wav"
+    },
+    {
+     "name": "Windows Minimize",
+     "file": "sounds/1_111_Windows_x20_Minimize.wav"
+    },
+    {
+     "name": "Windows Navigation Start2",
+     "file": "sounds/1_112_Windows_x20_Navigation_x20_Start2.mp3"
+    },
+    {
+     "name": "Windows Navigation Start3",
+     "file": "sounds/1_113_Windows_x20_Navigation_x20_Start3.wav"
+    },
+    {
+     "name": "Windows Notify",
+     "file": "sounds/1_114_Windows_x20_Notify.wav"
+    },
+    {
+     "name": "Windows Pop-up Blocked",
+     "file": "sounds/1_115_Windows_x20_Pop-up_x20_Blocked.mp3"
+    },
+    {
+     "name": "Windows Pop-up Blocked2",
+     "file": "sounds/1_116_Windows_x20_Pop-up_x20_Blocked2.wav"
+    },
+    {
+     "name": "Windows Print complete",
+     "file": "sounds/1_117_Windows_x20_Print_x20_complete.wav"
+    },
+    {
+     "name": "Windows User Account Control",
+     "file": "sounds/1_118_Windows_x20_User_x20_Account_x20_Control.wav"
+    },
+    {
+     "name": "int_1",
+     "file": "sounds/1_119_int_1.wav"
+    },
+    {
+     "name": "int_2",
+     "file": "sounds/1_120_int_2.wav"
+    }
+   ]
+  }
+ ]
+}

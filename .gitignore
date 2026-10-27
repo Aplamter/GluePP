@@ -1,0 +1,7 @@
+build/
+build-*/
+out/
+.vs/
+CMakeSettings.json
+Projects/
+tools/node_modules/

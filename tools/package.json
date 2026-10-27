@@ -1,0 +1,12 @@
+{
+  "name": "sb3-to-cpp-tools",
+  "private": true,
+  "description": "Converts a Scratch .sb3 into C++ code + assets for the GluePP Scratch runtime.",
+  "scripts": {
+    "rasterize": "node rasterize.js"
+  },
+  "dependencies": {
+    "playwright": "1.64.1",
+    "scratch-render-fonts": "1.0.255"
+  }
+}

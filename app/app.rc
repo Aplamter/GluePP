@@ -1,0 +1,2 @@
+// Windows resources: the program icon (GLFW also uses "GLFW_ICON" for the window's title bar and taskbar).
+GLFW_ICON ICON "app.ico"
